@@ -1,0 +1,17 @@
+a {
+    color: #161515;
+    text-decoration: none;
+}
+
+.activo {
+    color: #0505d6;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #05d605;
+}
+
+.menu a:last-child {
+    border-bottom: 2px solid #161515;
+}
