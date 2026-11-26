@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.job-card {
+    max-width: 400px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+
+.job-card :is(h3, p) {
+    margin-bottom: 0.5rem;
+}
+
+.job-btn {
+    padding: 0.6rem 1.2rem;
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
