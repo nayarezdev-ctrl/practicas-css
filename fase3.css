@@ -64,7 +64,7 @@ body {
     text-decoration: none;
 }
 
-.pagination .is-active {
+.pagination a.is-active {
     background: #000000;
     color: #ffffff;
 }
